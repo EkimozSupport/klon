@@ -439,7 +439,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Taşkın Hata bekleyin 🔴 \nKullanıcı {user.first_name} nedeniyle userbot ağır isteklerine gruba katılmak olamazdı! emin kullanıcı grubunda yasaklı olmadığından emin olun."
-                                  "\n\nVeya @MisakiDJbot'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                                  "\n\nVeya @Ellycarlmusicplayer'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                               )
                               pass
     try:
@@ -587,7 +587,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Taşkın Hata bekleyin 🔴 \nKullanıcı {user.first_name} nedeniyle userbot ağır isteklerine gruba katılmak olamazdı! emin kullanıcı grubunda yasaklı olmadığından emin olun."
-                                  "\n\nVeya @MisakiUserBOt'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                                  "\n\nVeya @ellycarlmusicplayer'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                               )
                               pass
     try:
@@ -650,9 +650,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"♪ Good Vibes Music ♪= #️⃣ {position} konumunda sıraya alındı")
+        await res.edit_text(f"♪ Elly&Carl Music ♪= #️⃣ {position} konumunda sıraya alındı")
     else:
-        await res.edit_text("♪ Good Vibes Music ♪=▶️ Çalınıyor.....")
+        await res.edit_text("♪ Elly&Carl Music ♪=▶️ Çalınıyor.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -717,7 +717,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Taşkın Hata bekleyin 🔴 \nKullanıcı {user.first_name} nedeniyle userbot ağır isteklerine gruba katılmak olamazdı! emin kullanıcı grubunda yasaklı olmadığından emin olun."
-                                  "\n\nVeya @MisakiUserBot'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                                  "\n\nVeya @ellycarlmusicplayer'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                               )
                               pass
     try:
@@ -761,7 +761,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="Müzik kanalıma katılın",
-                   url='https://t.me/Fmsarkilar')
+                   url='https://t.me/solofej')
              ],
              [       
                InlineKeyboardButton(
@@ -790,7 +790,7 @@ async def jiosaavn(client: Client, message_: Message):
         )           
            
     else:
-        await res.edit_text("♪ MisakiMusic ♪=▶️ Çalıyor .....")
+        await res.edit_text("♪ Elly&Carl ♪=▶️ Çalıyor .....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
