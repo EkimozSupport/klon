@@ -33,7 +33,7 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b><b>Hoş geldiniz {message.from_user.first_name}!</b>
 
-<b>🎙️ MisakiMusic</b> yeni yöntemlerle</b> olabildiğince basit, gruplarınızda müzik <b>Oynatmak,</b> için tasarlanmış bir <b>as projedir</b> sesli sohbetler.
+<b>🎙️ EllyCarlMusic</b> yeni yöntemlerle</b> olabildiğince basit, gruplarınızda müzik <b>Oynatmak,</b> için tasarlanmış bir <b>as projedir</b> sesli sohbetler.
 
 <b>❓ Nasıl kullanılır?</b>
 botun komutlarının tam listesini görmek için! » 🎛 <b>Komutlar</b> düğmesine ve Hits /help düğmesine basın <b>GoodVibesMusic!</b>""",
@@ -41,23 +41,23 @@ botun komutlarının tam listesini görmek için! » 🎛 <b>Komutlar</b> düğm
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Beni Grubunuza Ekleyin ➕", url="t.me/MisakiMusicbot?startgroup=true")
+                        "➕ Beni Grubunuza Ekleyin ➕", url="t.me/EllycarlMusicbot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
                         "🎛️ Komutlar", url="/play (ŞARKI İSMİ)"
                     ),
                     InlineKeyboardButton(
-                        "👑Sahibim👑", url="https://t.me/ByMisakiMey")
+                        "👑Sahibim👑", url="https://t.me/kizilsancaksahibi")
                     ],[
                     InlineKeyboardButton(
-                        "Ana kanalımız", url="https://t.me/MisakiDev"
+                        "Ana kanalımız", url="https://t.me/ucretlibotlar"
                     ),
                     InlineKeyboardButton(
-                        "Assistanım🎼", url="https://t.me/GoodVibeesMusic"
+                        "Assistanım🎼", url="https://t.me/ellycarlmusicplayer"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "👑Bodrumlu👑", url="https://t.me/kucukadmin"
+                        "👑GEZGİN👑", url="https://t.me/kanlireis"
                     )]
             ]
         ),
@@ -76,7 +76,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Ana Kanalım🎵", url="https://t.me/MisakiDev"
+                        "Ana Kanalım🎵", url="https://t.me/Ucretlibotlar"
                     )
                 ],    
                 [    
@@ -122,7 +122,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Ana Kanalım🎵", url="https://t.me/MisakiDev"
+                        "Ana Kanalım🎵", url="https://t.me/ucretlibotlar"
                     )
                 ]
             ]
